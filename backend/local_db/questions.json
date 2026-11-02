@@ -1,0 +1,913 @@
+[
+  {
+    "qid": "Q1",
+    "question": "enc:v1:haRr0l5UyxIJknpZr9/ZHPxM5VV2gGp64cb7j3r3fIRjRE7vx1FSY0hArIdq6y4Wwq37bq8c29d0GsQTsOgaBikPDo1GSRHiviiIgPu+pX2azT/u",
+    "topic": "Java",
+    "marks": 10,
+    "categories": [
+      "Java"
+    ]
+  },
+  {
+    "qid": "Q2",
+    "question": "enc:v1:wnN8c5x3NbCsf7C8yTvVhZaZ7hlnV4/FN450v7C6rsP5riMDPuDq2HNX8ngz0rtZZrWqixpHqk8VG0BuevRt40PGZ0yw7+ZPS3pjD85+G7ZmIt1PhXAw",
+    "topic": "Java",
+    "marks": 10,
+    "categories": [
+      "Java"
+    ]
+  },
+  {
+    "qid": "Q3",
+    "question": "enc:v1:s+23Rq0FlfU57y/770Y+4XWRQtDoXfFKnInfoghT2rHUbiMCQsjFMowDInpStzAZIdWW/8P2T7nY0vQHNfB4nvAQeS+qehHWb8z+tCOCUO8r",
+    "topic": "Java",
+    "marks": 10,
+    "categories": [
+      "Java"
+    ]
+  },
+  {
+    "qid": "Q4",
+    "question": "enc:v1:QbY+RcCbguHLKQUkVk8tq3YDeqWyvyMLs4pnwpaqdATrbfvnvfxjENRmPSaevDarUyDZKPiQM4fq+by3rdXOKaxAXPqXLrtqlA==",
+    "topic": "Java",
+    "marks": 10,
+    "categories": [
+      "Java"
+    ]
+  },
+  {
+    "qid": "Q5",
+    "question": "enc:v1:bG57owt87YgfRtCQ0a/z9zztagb7w0tkeZnrFB+stcuizLvPNPs16ienIX4XOeBAjNSL1I0sTk3xcMETZDyhpAmgCxQBHVYAnM3/pS+wLNY5bb5kMvzU8nu3q+99ZHnwiRWP2AXC",
+    "topic": "Java",
+    "marks": 10,
+    "categories": [
+      "Java"
+    ]
+  },
+  {
+    "qid": "Q6",
+    "question": "enc:v1:KH57xbzj3PCZvBsQyiykJhXBi2Cp/BbkwMkHOLW/w/dEiS3GBot73ICKUfE77PAoNAgeTUIfxv0Ir1r8qKlYYV3JVvoR9LBUZFhxp8eqffyWjFk=",
+    "topic": "Java",
+    "marks": 10,
+    "categories": [
+      "Java"
+    ]
+  },
+  {
+    "qid": "Q7",
+    "question": "enc:v1:/dlHt3rNGxGF2pOP0nPFxsbcSQQ+hTtIwahxu+yE4foWv2WGhZuMJay4IouRbRfcR1XUW3+3NIu5kg7EZ7SGlvXVjEyZIM9OP7uz2sANS17CVpqEkkeWvmGdLud2Lnf7Fx0=",
+    "topic": "Java",
+    "marks": 10,
+    "categories": [
+      "Java"
+    ]
+  },
+  {
+    "qid": "Q8",
+    "question": "enc:v1:VuczPwTElkbWxjXpVE6GYzLHUX0cNw5pePr0pbc5VkdiA/BccplyLCPPsHa9WlDxTbQ3tOCY4CB7yxxEC9MYBZUxhrL3y1366O/xS5Ju8RVQH+gKRFjHgg==",
+    "topic": "Java",
+    "marks": 10,
+    "categories": [
+      "Java"
+    ]
+  },
+  {
+    "qid": "Q9",
+    "question": "enc:v1:XZ055GGGQSwfUE92toy/NaZ6JH2dBlXT/oUa5Lv6xBzzEtU3Rt0EHnyIfIwWPKv3LMHemCU+m16Rs2Eozoc40VmQNnlccM2cGViT",
+    "topic": "Java",
+    "marks": 10,
+    "categories": [
+      "Java"
+    ]
+  },
+  {
+    "qid": "Q10",
+    "question": "enc:v1:2mrlnj0NqE/m8Fd2YHsFnwGmmGPZbtTsrrdKhquAbHzANvWdxdKkN7LhRGtBGaI8BAF4sW4X9F8dsoAFwNmoMVFDHHI=",
+    "topic": "Java",
+    "marks": 10,
+    "categories": [
+      "Java"
+    ]
+  },
+  {
+    "qid": "Q11",
+    "question": "enc:v1:GqHXcYDCeTXlzl0/UAaKj5xoEJfb355Sg3qMYHNkvLxTZah4Wxn9ZBqbkGozZLcYZSwHsgIE3jBglg6e4Z2sT2AOhXemrhBpDdaScV8hSVi6DNCcwQh0umUuAzI=",
+    "topic": "Java",
+    "marks": 10,
+    "categories": [
+      "Java"
+    ]
+  },
+  {
+    "qid": "Q12",
+    "question": "enc:v1:oJcyEwdxak/5SQfmAUslQ6kb1m9XXSio0Ht4IMRPGwF21QMqk9VVEuZyTmWiVsha1InUwgY4FuIREYU58W9dxf8pVQ2kTiPjLlhwft8PIqbZJOOB4w==",
+    "topic": "Java",
+    "marks": 10,
+    "categories": [
+      "Java"
+    ]
+  },
+  {
+    "qid": "Q13",
+    "question": "enc:v1:XSs5hbAmd+qe7YWTkj2uKtnzUoPtmtJhmeaNleAQcJX3yrhzJW711mt8OAzP29XB/sv6atPK3Hn/WvZbQiKp3QnDcvuxGBo7EtBoQaw=",
+    "topic": "Java",
+    "marks": 10,
+    "categories": [
+      "Java"
+    ]
+  },
+  {
+    "qid": "Q14",
+    "question": "enc:v1:LgmHzMVb2wCgsXoW70I9edNwT8YKeefjL8MdOfEjCAs9klHR3IachN6Q67lRbiebOvvA9sr+mA3PrVjXx1977CdnblbKja91zFLosXN1kPVeay4=",
+    "topic": "Java",
+    "marks": 10,
+    "categories": [
+      "Java"
+    ]
+  },
+  {
+    "qid": "Q15",
+    "question": "enc:v1:yj+IS8dV2azkrcGz4ZEvAPva9nKcB5MpTnB9WLw4L0bdzhcRg+Zpyc5A1WJb7vNUeQI1DkRXxQuI41KGM0tqsFgzej7GIAilMSH/",
+    "topic": "Java",
+    "marks": 10,
+    "categories": [
+      "Java"
+    ]
+  },
+   
+  {
+    "qid": "Q16",
+    "question": "enc:v1:RgHH5AuKjdtlPVp1xIhQCDN7NGzMMfg+ZHUbHXFl5rygE1cn686WBwBpkYC7wE4tTQOqJlYJZxVcKH7Y+8PZZ7RFa1KHZBd04foxSYkat1fyMgYS",
+    "topic": "Java",
+    "marks": 10,
+    "categories": [
+      "Java"
+    ]
+  },
+  {
+    "qid": "Q17",
+    "question": "enc:v1:2jX1fRXydlL938u/mVCUmMCpQyqjizBg+lgpeNCvy2Mw8DGJoS5YrPrLg/QxRYzWEsiXJXhXlFmjnhji9UTyFzzToom4vvH703kW9WzI0GbHKX6bVw==",
+    "topic": "Java",
+    "marks": 10,
+    "categories": [
+      "Java"
+    ]
+  },
+  {
+    "qid": "Q18",
+    "question": "enc:v1:H7RDThTuG1JUDUdU6Q0s1kwXBSWb8Z3uv8S2dO1EIKTd3qf5gTYmHOyHvuN+E9AXsW8ZV8Lg54ynzg9sl9FogK8wTyCBSFdOfn1b1hHlV/FkWYdw37yH4pNh7uZz1w6QoRcAnqu4wGI=",
+    "topic": "Java",
+    "marks": 10,
+    "categories": [
+      "Java"
+    ]
+  },
+  {
+    "qid": "Q19",
+    "question": "enc:v1:O902LNR8hBOB+SNG8S6iYsLHqhqK/rKed9h6g9FaAUGbsrMiqSFgcEMKGBGc2lIoRjE7i/JUTLMWrZcBStC3i4F5q9ziFWuCzyAV8zAaBwe968k=",
+    "topic": "Java",
+    "marks": 10,
+    "categories": [
+      "Java"
+    ]
+  },
+  {
+    "qid": "Q20",
+    "question": "enc:v1:T38pQM1g96Zb0wnbslkH1zupB5SwhIa4TKTdIkgAE7SKvODx2jEt4qTcuDiXW2wYsLwElQIxeOx0j59xaCV6bWmk8QJ8iNDjV8+UKbEqu6jMhxZVXe6xCQtJ",
+    "topic": "Java",
+    "marks": 10,
+    "categories": [
+      "Java"
+    ]
+  },
+  {
+    "qid": "Q21",
+    "question": "enc:v1:WqhazkU/JVQjsOK1UCwJuM42zxlkZ5vjL5QzzFJ/1qYK98L3atezDMoUL79P2e/w473zXSmb844D6J4rgGEVh4A8tz65lJkqsIUsDPbmbA==",
+    "topic": "C++",
+    "marks": 10,
+    "categories": [
+      "C++"
+    ]
+  },
+  {
+    "qid": "Q22",
+    "question": "enc:v1:w8fDkmuHDaatKX54a4qbVkMLgVthKknL9sH+ZiFsx2DNlzZ6ZBkrFXYZYv/t+7blRJQYAjOhGtWSq3fdiq6zu+yfBl8wimzZv8a9aO7a6/FoL1etuuqGhnTXO/a6QXs=",
+    "topic": "C++",
+    "marks": 10,
+    "categories": [
+      "C++"
+    ]
+  },
+  {
+    "qid": "Q23",
+    "question": "enc:v1:37Zo/KRNrQ5RyCJJaD3X8j6Kq5oj+HU2ZdYdABRg9PrbT6DDgBVyylfg194Mt32NdaFKLV0qU9XvGUhctCMro1269w4AjENcwY9IKQmKOdk3NodzmRN7Xro=",
+    "topic": "C++",
+    "marks": 10,
+    "categories": [
+      "C++"
+    ]
+  },
+  {
+    "qid": "Q24",
+    "question": "enc:v1:UhE7pPw6bJYkVyuv+716k4Iuh+x7j/78vQBMq0OhwpVyB46bkkrwc+Kkga3u1Xl/ipiJTtSjZyFe+Prowac=",
+    "topic": "C++",
+    "marks": 10,
+    "categories": [
+      "C++"
+    ]
+  },
+  {
+    "qid": "Q25",
+    "question": "enc:v1:GeAH9SFwf4MgfcNsr32X/cFHUR3oY9/K9kWj4lP/t2drNPBx5rigepu+LEIgdGn0+fi3IBCuWptwWi5l4pjZVoVCVYmmMpxz9p9EAavKd153tdc=",
+    "topic": "C++",
+    "marks": 10,
+    "categories": [
+      "C++"
+    ]
+  },
+  {
+    "qid": "Q26",
+    "question": "enc:v1:cto/3ELflifhiIzdnkb2Sq1L/9Grha2CXbALXOT+GcihDGTtnb9yVk4Y3xFVZ3h6K1/TcUd+QLGjin36b0PoeZdQtFt4vYg=",
+    "topic": "C++",
+    "marks": 10,
+    "categories": [
+      "C++"
+    ]
+  },
+  {
+    "qid": "Q27",
+    "question": "enc:v1:6LRq1wmGB05z8MVTPjcDqyt7e7zeM4Dg+SDzh0ebU9R0OLU7QFCtuRpUwLYzlsYaXPVWYp04JSNLV5kOB25t/HxOXRgL+8RvJWE/b0fe",
+    "topic": "C++",
+    "marks": 10,
+    "categories": [
+      "C++"
+    ]
+  },
+  {
+    "qid": "Q28",
+    "question": "enc:v1:JO5oFrIkLCfC+Y+N+LDbxIWK3D/fOR5VX/b7JlGSPIsWKEVdhkDus0E6TrnWFpTKszl+mr3D1q6sU6RYY7M=",
+    "topic": "C++",
+    "marks": 10,
+    "categories": [
+      "C++"
+    ]
+  },
+  {
+    "qid": "Q29",
+    "question": "enc:v1:I9tLdIYfuBuAUFDCOuD9E4cP3W5BvkwzmsLkwGfwkd9w4erfSutiMAbc8LTLGPFQsa+XoT8/smoWAqXLpSNslLCjkBcjZ7iIOpSJQ3x/a2TiSqwz+UOp",
+    "topic": "C++",
+    "marks": 10,
+    "categories": [
+      "C++"
+    ]
+  },
+  {
+    "qid": "Q30",
+    "question": "enc:v1:9Hmoqndpn8udwxtBMtLrbUorndylRLLHhHErvN21pSOq2iK3y0M86HTJaE/Zb2ZNpBWxV8OGeXPfR2bdjwURjsYeKhPJczlulOqpxbA9qKJW0FGa5KA2",
+    "topic": "C++",
+    "marks": 10,
+    "categories": [
+      "C++"
+    ]
+  },
+  {
+    "qid": "Q31",
+    "question": "enc:v1:BSoLa0yuSXEIJg8+heXbhpJ++wCyQHW3WR4pr7/xs1J+ELwZPJ+pL9kfipDnu2u+1V6EWSr7RWvVMvcJdDgvOSy8Inl+lY6/kyVSdLBCuwvAlJUDI3yiqg==",
+    "topic": "C++",
+    "marks": 10,
+    "categories": [
+      "C++"
+    ]
+  },
+  {
+    "qid": "Q32",
+    "question": "enc:v1:PuWjeI/uBAucPdfAjS5xAQ1eKXW30nVIyxxjulIYVcnDE0ZS504KzDhyPpMjxTyH3yo+Lo0aiLSai0qCxTa+9O+Lyem7G/nYyhIpkr++z5WbgvWMKXJ/ldz04MtxtcSBSxZJ",
+    "topic": "C++",
+    "marks": 10,
+    "categories": [
+      "C++"
+    ]
+  },
+  {
+    "qid": "Q33",
+    "question": "enc:v1:sMYPC2MSOcsMDClk9ozf/VqXtm05YFY1ktiMJGlUdslSDsBjIx65ds9jwEv8eQk25EUo5B2mrfG+FSkU",
+    "topic": "C++",
+    "marks": 10,
+    "categories": [
+      "C++"
+    ]
+  },
+  {
+    "qid": "Q34",
+    "question": "enc:v1:StsbL/K8mUYhRCzal7h1c/x5T1zT5/yVjBrkECGH2/ldayXt0iUEQ6iAyCOtPvUQ1GFKlZvtfjQjX7CN3iD/lRqgzoBKKvRHnlCY1/hcFLat6A==",
+    "topic": "C++",
+    "marks": 10,
+    "categories": [
+      "C++"
+    ]
+  },
+  {
+    "qid": "Q35",
+    "question": "enc:v1:Z39vnVWu8BTyBHCKx45XoSk8X0AEZUw6fdtjRYaEW0nqlTLHwMCLmnyDzohJBPfeBWK+IJdruBTClR4ibLgajMgsa+ojKQ==",
+    "topic": "C++",
+    "marks": 10,
+    "categories": [
+      "C++"
+    ]
+  },
+  {
+    "qid": "Q36",
+    "question": "enc:v1:UsYAP3ioJO5Z3djmCiouc7F7s7AWFEr2ZA3ks5Nmw46nVXDWAjOZeIH40e4C17vnh+gTWUqpmHY12gt3y7fZjTffU+uH4F4P36CXyHVMb6Gdjj4n+UXgfw==",
+    "topic": "C++",
+    "marks": 10,
+    "categories": [
+      "C++"
+    ]
+  },
+  {
+    "qid": "Q37",
+    "question": "enc:v1:y5hRfYGfkgpxxjoKj0ym2148XQJIzrO8DieqSpFLiZ0OlQqwzQ3QiJRyPwvnYd6jhSg7Yu1bz0o4dDfsEBHJ5k9/tgnm/sPhu+B4jN2u7w39Bg==",
+    "topic": "C++",
+    "marks": 10,
+    "categories": [
+      "C++"
+    ]
+  },
+  {
+    "qid": "Q38",
+    "question": "enc:v1:Dx4Q074OpUfvpdTFJbxLYSILURewt7LxkvQzY+CuP9aN4mzX7730tYOe0h8yzujKyBPwRjhLTLLwz+pNmIqo9Y19xA==",
+    "topic": "C++",
+    "marks": 10,
+    "categories": [
+      "C++"
+    ]
+  },
+  {
+    "qid": "Q39",
+    "question": "enc:v1:uvApoIlP49qPOIpR38QZzW96kS466nmLR+z9S6GdhHoH0+BJtlqC6JZ+2LBt2Ybvb612yHAr5C0oBSrffZM=",
+    "topic": "C++",
+    "marks": 10,
+    "categories": [
+      "C++"
+    ]
+  },
+  {
+    "qid": "Q40",
+    "question": "enc:v1:6kSGubqQP+30IC2e7Q8+56abl6AhnWM7a4YfDKsMhQXlH1Yyr9IdcHtcbSpKMqC8USbrYu7kzw70hA1F2tPlNvQ=",
+    "topic": "C++",
+    "marks": 10,
+    "categories": [
+      "C++"
+    ]
+  },
+  {
+    "qid": "Q41",
+    "question": "enc:v1:pZfgL77WsIDER0Jw35SM8mjLyDX5PE9+oNZmT+HPT6ZabnPAcqtcLnN8vJQdqDaEgFNM216hzYy0P9m1P1U+JEpPph+9rxZJ/LhLiWPavWKh",
+    "topic": "DSA",
+    "marks": 10,
+    "categories": [
+      "DSA"
+    ]
+  },
+  {
+    "qid": "Q42",
+    "question": "enc:v1:ktMUCC9BZyAQDxc+Fub57O+PGLAcacjRq3mfczqhe9+3GRGv8aWy8PIjtFYTkZGDCA6PHp5yxpaeP1PDE1T2n6P6ER8McIxT0GuLYFYlcvTjqrj88g==",
+    "topic": "DSA",
+    "marks": 10,
+    "categories": [
+      "DSA"
+    ]
+  },
+  {
+    "qid": "Q43",
+    "question": "enc:v1:YB9NrLmb1XUO5GSnm5zpf4GfPyhJ/ZeWKCek+Svgc+2YdvW+umTqaJJIJQTWsC9BLX3pQ9EzlbaCJIMQr3422eelsDJzyPW9ZVNbaxY7pnfdOZlXRaX7+hVyxzy02BlxQkTjJwR12FfaYUaHxYg=",
+    "topic": "DSA",
+    "marks": 10,
+    "categories": [
+      "DSA"
+    ]
+  },
+  {
+    "qid": "Q44",
+    "question": "enc:v1:09TkbY4Sl7JEK05EmGdKGbCPzxfdGoAcOZ5awEHCqdI6BCjBY/qhg6JA5RaokTve76jFLIw5POOjj9opFJkxbgLBLLEdFF7BH+USTyO8xlgG2rxW1oz+Ak8So9MtajXKh4s=",
+    "topic": "DSA",
+    "marks": 10,
+    "categories": [
+      "DSA"
+    ]
+  },
+  {
+    "qid": "Q45",
+    "question": "enc:v1:xNDI/jMP9lRHxmKN5SPSODITzFDDyDgKbyNEcRD4UBDhT5EI6XIUiX9+bod5LSUn39rlXymFZC5P9dzCkRVkTonnyLS/bIKKdiJaSPeaaL/f",
+    "topic": "DSA",
+    "marks": 10,
+    "categories": [
+      "DSA"
+    ]
+  },
+  {
+    "qid": "Q46",
+    "question": "enc:v1:Afy3c/0Cyuk9hiYg25peyXCZSHuNCDSEIUiKN0CAKpDbGF6wyK+84qJ0LimMUYN3e2SfxKQm0BOqH/zIxKmVQZZJkS1ejgj8orkhbosECLShB6BPyX/1uYq1NNld8Qc=",
+    "topic": "DSA",
+    "marks": 10,
+    "categories": [
+      "DSA"
+    ]
+  },
+  {
+    "qid": "Q47",
+    "question": "enc:v1:8gBRRL135iMh4O3A9OeYG1sWGtX7Oj4AD97FivujxyxnmTy/AE9fM9U9nPgmIQNsNR+9OyU=",
+    "topic": "DSA",
+    "marks": 10,
+    "categories": [
+      "DSA"
+    ]
+  },
+  {
+    "qid": "Q48",
+    "question": "enc:v1:UsJ2L+LodiDkTojP8IgnfihMHFSk495KtHQYEwSIEAp140Qteg7rqPc5V1TXpwo8flGx6W1m8EG8ICNWd30TeLYi/skpGXQ1M3W0p34Mx6m1KsLl6Q==",
+    "topic": "DSA",
+    "marks": 10,
+    "categories": [
+      "DSA"
+    ]
+  },
+  {
+    "qid": "Q49",
+    "question": "enc:v1:uilsVEUivgkj52oX1gVYYDy+Fw+7ooVc5OOvb66cchfWSZaWaXRpWZshN3QqVoDAFv1I85SGDJCLwWPBhEFEsvgKKuxPPlhUexDDFVOgE7zsZCPZ7GKMjeL9ge/j",
+    "topic": "DSA",
+    "marks": 10,
+    "categories": [
+      "DSA"
+    ]
+  },
+  {
+    "qid": "Q50",
+    "question": "enc:v1:U6KCcdGcjZaE6y+qVnfBoRA5d5zH9KP7oKHtdDwtyem6XlInhhNG+QC0nauEXtmsRQWNUy7hYrZ3D5mdNKb7HtHWFveHYm72eVe0p+DAbDzZqFQ=",
+    "topic": "DSA",
+    "marks": 10,
+    "categories": [
+      "DSA"
+    ]
+  },
+  {
+    "qid": "Q51",
+    "question": "enc:v1:Di3Zaqu55TMYkIRVg6ZuEvTzKGQOh97CoZUgSrDv0pR2hcZefwV9noc78PyRUzfR7bvcv4UPFAG3Z///wZCw",
+    "topic": "General Aptitude",
+    "marks": 10,
+    "categories": [
+      "General Aptitude"
+    ]
+  },
+  {
+    "qid": "Q52",
+    "question": "enc:v1:zDUQjvAUvNI1T689/XI551jSMPbwi1nL8WIeu9Xhh7TDEK/gg5yhUoxXrjdUFnZe2glzmTeHbIC9xjRPX7edMdcWXno0F0GxlJefLzcFY+s089jRiKCBuXtVOgjMclj/EA==",
+    "topic": "General Aptitude",
+    "marks": 10,
+    "categories": [
+      "General Aptitude"
+    ]
+  },
+  {
+    "qid": "Q53",
+    "question": "enc:v1:6ePmu/AkBNMpFp0jLMfW5rSHGUOi/ubVQZMHG98nXJxKFYBHz5e7TljUp0ubfAIH5G2rU6VOXMKZJVN0c0wf2JVeaEwfGaD89udIHtCNzvMswpeA1bNL0WQ=",
+    "topic": "General Aptitude",
+    "marks": 10,
+    "categories": [
+      "General Aptitude"
+    ]
+  },
+  {
+    "qid": "Q54",
+    "question": "enc:v1:HAFw6turjqmpXqh8KseW9hEM8BMMoUdm8IJwdyU7dL6iWFhIOeyv3kp1udUf+ZE=",
+    "topic": "General Aptitude",
+    "marks": 10,
+    "categories": [
+      "General Aptitude"
+    ]
+  },
+  {
+    "qid": "Q55",
+    "question": "enc:v1:GHXjHizaz+qTr82U8oP29wVQ/fMPG4q0KdDXcYQiHINbRkcNK7HEBNK9StxNtLel8Umweamv6Hg/fSuuJkyKBCBeuB+L7mK3Cs0OqMpXVnHx75MO8f34t9eaFUjdRm9QUshdRggufpHczM/dl1kxph0=",
+    "topic": "General Aptitude",
+    "marks": 10,
+    "categories": [
+      "General Aptitude"
+    ]
+  },
+  {
+    "qid": "Q56",
+    "question": "enc:v1:OTOxLHISWvD4s9UrFlReSEtxjS1rW8pArblOfNjFGQAwAVKVRoM0HRu2paR881i05wGhXa8FRMC7ug==",
+    "topic": "General Aptitude",
+    "marks": 10,
+    "categories": [
+      "General Aptitude"
+    ]
+  },
+  {
+    "qid": "Q57",
+    "question": "enc:v1:qfQtcIrNbXzpWSon5nJoPaq2JpBKxPxX9RzLXMtUMJW1XvRDNweYLpVyZgXFduVH3SazXuI=",
+    "topic": "General Aptitude",
+    "marks": 10,
+    "categories": [
+      "General Aptitude"
+    ]
+  },
+  {
+    "qid": "Q58",
+    "question": "enc:v1:7u/XnoW6L8YtmPaczIE2PabDmIE+aMfUGSMTU9nmoYhiWck419Te4pKWmOt0pytV6zGeyTgT4Ja2QXokGSJFxkpVAyocwoIhPuyG159J3TpcCQmnLh+f2Gp8Bmo=",
+    "topic": "General Aptitude",
+    "marks": 10,
+    "categories": [
+      "General Aptitude"
+    ]
+  },
+  {
+    "qid": "Q59",
+    "question": "enc:v1:T/u/ExiCKZTnfXGQnGEbAQg3cBdVLnheeF6BgKXBBvGTLQygXrcrvYdnNcCKkFf0tl+MzVMSJORxrjUJajTotrlNHY0QgNZvxN7ei0Ydp1vaA+qVvhkxz0unlZvA+d0MtzI=",
+    "topic": "General Aptitude",
+    "marks": 10,
+    "categories": [
+      "General Aptitude"
+    ]
+  },
+  {
+    "qid": "Q60",
+    "question": "enc:v1:5obJgrWMWkY/0Bj1MN6coBZm0hXqNdJQpXBb2Qor7rIKd7kSIZ233lZcL1uCM51umktO0EEC6OQ=",
+    "topic": "General Aptitude",
+    "marks": 10,
+    "categories": [
+      "General Aptitude"
+    ]
+  },
+  {
+    "qid": "Q61",
+    "question": "enc:v1:XQey1o14Ch3pPD2fUWZyxEJlB73bbA1p/t9MLb4PxpUT5MR8IR+tHkb5aJIp4dSkG/iBjN/p0BBDRTRwcDwltO4IQABC",
+    "topic": "React",
+    "marks": 10,
+    "categories": [
+      "React"
+    ]
+  },
+  {
+    "qid": "Q62",
+    "question": "enc:v1:EmhMayRDKH8UOxjEv5Iw9vo1xtc/OXSjObdxHVP8lshdqL6YbkxNw3kQ+nBsCOorxsbVeoJtvLxT3NIbNNT2BKcuzR4JCiE9dJLman3RjD31+2huoB3XQ2TL4FOAAMKeZw==",
+    "topic": "React",
+    "marks": 10,
+    "categories": [
+      "React"
+    ]
+  },
+  {
+    "qid": "Q63",
+    "question": "enc:v1:kuFkm9VXtMzkuCCPUgVdX6SsFXQ0EgJ+4WZESegrxxymIJVhjv5yFoWE2RIjkCB5Mw==",
+    "topic": "React",
+    "marks": 10,
+    "categories": [
+      "React"
+    ]
+  },
+  {
+    "qid": "Q64",
+    "question": "enc:v1:BDyfplPRw+c8a1F/LEiXhL57hTBtp5IrxZuJtISgtBrZ8U2uwSyEO5OrHX9BYFrgRj+y5BAbRFWaAoNTjKYOBDcB3GFgWpgem/htvKuhsY+EmvFZ",
+    "topic": "React",
+    "marks": 10,
+    "categories": [
+      "React"
+    ]
+  },
+  {
+    "qid": "Q65",
+    "question": "enc:v1:eP/MKh/9mlDBvpGEr17mL7dtqcRkiTWY49tUuKktpm4v9FdP1bxKfQOgYg2SEheCmSIcBw==",
+    "topic": "React",
+    "marks": 10,
+    "categories": [
+      "React"
+    ]
+  },
+  {
+    "qid": "Q66",
+    "question": "enc:v1:Ks6ijnvdXQPfT6uULoSfXmwx5xwBrU6N0K9nAp3E1MNEJ1xDzwDr7c7I0pqipF1FkQ9e32i4K+LFwWAigRMNUDCfJbfzW+eC06KhNZr8yDNkZUt8iDnD8fx8K6F5tfjZjZc=",
+    "topic": "React",
+    "marks": 10,
+    "categories": [
+      "React"
+    ]
+  },
+  {
+    "qid": "Q67",
+    "question": "enc:v1:Mv6kEtAQQZAZ5x+vexYX/+WpdaPmaqAZPSEuFgSc4ruyFWw1CghLnC0cUt6rDPEJfXUSc0c5dj0lHG72iaQuHDRl5Bgk7nrhhie1l7w=",
+    "topic": "React",
+    "marks": 10,
+    "categories": [
+      "React"
+    ]
+  },
+  {
+    "qid": "Q68",
+    "question": "enc:v1:iNAn0+mQ73jeHpq1i8Bd5bo8mtlqNhxvX9GRG2AXLelg+niUDQtKCIOunY4fovFI+Jk725qW58Pi1B+zsd9WGThpxm2DtA5VllYmvG832KlDA5u9Zk0=",
+    "topic": "React",
+    "marks": 10,
+    "categories": [
+      "React"
+    ]
+  },
+  {
+    "qid": "Q69",
+    "question": "enc:v1:28L0KqzkYSexOnPLzn/e0B23PgNn0MUXowXmUoiilZU/DEuAxjSipwM9g19iY2knOB6B/w0N/kQS/f0wAimP49vzyFH9yMZOpVrh",
+    "topic": "React",
+    "marks": 10,
+    "categories": [
+      "React"
+    ]
+  },
+  {
+    "qid": "Q70",
+    "question": "enc:v1:0JZPGNd6QKLI7NU5z2IhuP49mp48pA02k/p6Gns4PsrEkxcayp8gjNYWE2uUQe0dCFnkjMXY3JckGNZCgJi9mPs7DurMSFa4PLHIdPIRTVE=",
+    "topic": "React",
+    "marks": 10,
+    "categories": [
+      "React"
+    ]
+  },
+  {
+    "qid": "Q71",
+    "question": "enc:v1:Dje4DN7gurK6U+EB5d3iWDZgmLbzcAWfJR9Lf7kmoDhcKaJoULluWFdKwBmn07RE/FDtlWJBaZmplkustK7e",
+    "topic": "React",
+    "marks": 10,
+    "categories": [
+      "React"
+    ]
+  },
+  {
+    "qid": "Q72",
+    "question": "enc:v1:qmcp3s8K3xENgMz/ri+dbIkzT5fYvaz2/553JZwgwDvpxCbiFlaDmKkBCBtwHWbbBfsMX6zHn2tskrDhyAYaRJMUnm5W+1HDqQ==",
+    "topic": "React",
+    "marks": 10,
+    "categories": [
+      "React"
+    ]
+  },
+  {
+    "qid": "Q73",
+    "question": "enc:v1:/VB4YOo0ephOgd1MAzYhWXQXhegoiQGBOOYNxByR0vEletaAXBOhNF3BixF1WyBPUSIy5P4p12CUJjRZwk4ER5vYRw==",
+    "topic": "React",
+    "marks": 10,
+    "categories": [
+      "React"
+    ]
+  },
+  {
+    "qid": "Q74",
+    "question": "enc:v1:gEoXd2nW+Xxc28/+62GJ9IuusuJDbmuW0s14uZV6H6fTW6tgkE/sjCxSGAdHHyRwBIX+U/qdHvi2gt/OaK5MxwXra6tMD5aAyOdDiviKhaSvDeQnnVHvprCZ4M4t",
+    "topic": "React",
+    "marks": 10,
+    "categories": [
+      "React"
+    ]
+  },
+  {
+    "qid": "Q75",
+    "question": "enc:v1:Rjd1EUgz8/jdb7xqSQLfZ6QMJBv8u20JAzC9pzVXw4S+feI1Wi3UvwSlnO/0fUjOsBh1jBEIjOTOpsggqCOzxfCos0NXBdWXSZAt8g==",
+    "topic": "React",
+    "marks": 10,
+    "categories": [
+      "React"
+    ]
+  },
+  {
+    "qid": "Q76",
+    "question": "enc:v1:tXduCt2ACGrHiBZ4dtdjJ/jpdzLIonl2AJ67uAK11STXw11yX7DdhDf0gTY7H/mzdg0BmHFkuc56URe9vUFO3h28",
+    "topic": "React",
+    "marks": 10,
+    "categories": [
+      "React"
+    ]
+  },
+  {
+    "qid": "Q77",
+    "question": "enc:v1:z5IyZFaCvHWF5Kt2I4MD3EAJuierSkhf6Q4HXj+stH2xvd3tx/phkb7kMqfWann6wBMCbERGjwLJMeMEB08=",
+    "topic": "React",
+    "marks": 10,
+    "categories": [
+      "React"
+    ]
+  },
+  {
+    "qid": "Q78",
+    "question": "enc:v1:zIDRi+tQmn4oagWqipzUu2azkkdkNhhuoD/Cphyzk4i8kue+XlxdAclPkO8ogtQhUxBCpOJE1V7X",
+    "topic": "React",
+    "marks": 10,
+    "categories": [
+      "React"
+    ]
+  },
+  {
+    "qid": "Q79",
+    "question": "enc:v1:1HAW/F2kAANqSwzUPl4ICbonHmzC5CdX/vrzOKghc0MsCZ8QV1/5krKthpl6XSPI3FIi2rf2lBYGCuvMnNWtmMg=",
+    "topic": "React",
+    "marks": 10,
+    "categories": [
+      "React"
+    ]
+  },
+  {
+    "qid": "Q80",
+    "question": "enc:v1:8uPk0C7NaSoCacLKgF8F+5VB6BrW2OR3btoyUZj7WxQvUOef05HzmHwznbX73DZyihticTvPOywTUQwJHO7taSc4svIBXAfjXg==",
+    "topic": "React",
+    "marks": 10,
+    "categories": [
+      "React"
+    ]
+  },
+  {
+    "qid": "Q81",
+    "question": "enc:v1:eQIURhtHtXurVLisDcs9LFpRGYUWuIE4upRGjIOyjNg5F3SuZkGXAt7j4USSfr2A9Tjboh2p/vqbegPDFjxu3fExEIGBRHgYXw==",
+    "topic": "DSA",
+    "marks": 10,
+    "categories": [
+      "DSA"
+    ]
+  },
+  {
+    "qid": "Q82",
+    "question": "enc:v1:yH73qsvpwOTgxgNjq2Be+EEt7y+fOx5oE33nDGpkVyNlfhxQPWjABbg/jAwF4Cw1q/EvA8a3fBJNZYfXKJZ3kWm63QJkuQ==",
+    "topic": "DSA",
+    "marks": 10,
+    "categories": [
+      "DSA"
+    ]
+  },
+  {
+    "qid": "Q83",
+    "question": "enc:v1:3TOU5dhe3s9M6G8/ocgPiBx0QA45/OMcyWlhJ7cOtuFnLc21STSsIU2NfR3hNTJvLCRD6+AAY6GAlC8Qvxr5nlDivqB1NOILFZ2lc3kF8S9fS4/2eiy3XQ+IUXZku+EB9aDCDtIA",
+    "topic": "DSA",
+    "marks": 10,
+    "categories": [
+      "DSA"
+    ]
+  },
+  {
+    "qid": "Q84",
+    "question": "enc:v1:ddc6/Vu2g31+31CbyTOW4q3yvzp5vj6YwmyE2N/JnndU16DT7oLG4f488rHe9cIP1Ake2Mgd9S0wpP2h9xwX+/NSnmc0Pv+T2w==",
+    "topic": "DSA",
+    "marks": 10,
+    "categories": [
+      "DSA"
+    ]
+  },
+  {
+    "qid": "Q85",
+    "question": "enc:v1:01GjMeiaQaRcO20xKK/zAyBAk6uQIMDRlQoxYA8cNGxxVuOJFSkhPB8PLd6btUrHteDGZDmGIXnw1fjMl1xzpWN4pliEYL+1iYI5MFH/mq1wAGume3LpCxMM",
+    "topic": "DSA",
+    "marks": 10,
+    "categories": [
+      "DSA"
+    ]
+  },
+  {
+    "qid": "Q86",
+    "question": "enc:v1:ZRE2me5a/mZ5+Iu0vBKoaHCqrOE5/tu7QyDfVD4dUyW+GJIfsRUst+clqT5TDDXj+mGvYDawLFeoE+63WIfgYxiVmcbaXvSLeXXH5CGkpK/gFQ==",
+    "topic": "DSA",
+    "marks": 10,
+    "categories": [
+      "DSA"
+    ]
+  },
+  {
+    "qid": "Q87",
+    "question": "enc:v1:9J26EkzbAmRzqM9prNhZHs3pXTMJCMDwMbBBnlJRmUt4NBfU5EaIdThtB3iGDbvzfkoxr7za5zitm/0Hifg84DPEZ8KpAuo5oXLB",
+    "topic": "DSA",
+    "marks": 10,
+    "categories": [
+      "DSA"
+    ]
+  },
+  {
+    "qid": "Q88",
+    "question": "enc:v1:h9XSpWAfHCiJXgDGxooHLH+SwdRyN9Fj9De5yFgAEFnvVN9GdfkAPlD4jIi7rGmW2iv3QCmJwk7L4mD7fjnWXw9GG4b2+lkjt58HylUk3h97lHA38uSD",
+    "topic": "DSA",
+    "marks": 10,
+    "categories": [
+      "DSA"
+    ]
+  },
+  {
+    "qid": "Q89",
+    "question": "enc:v1:I2nBLowWz1EYILiuP+ARQtL+Vpr62y7f4vEdPR9Ubl/1e+NMmHtF+2rZAcR/x9+3s9w27ue4+WYGLj7addUEbYbWhDK4kQ==",
+    "topic": "DSA",
+    "marks": 10,
+    "categories": [
+      "DSA"
+    ]
+  },
+  {
+    "qid": "Q90",
+    "question": "enc:v1:b6qyPP4m8ry9LbpqWnZiqJFAJdani7aOzWZFALrxz8mTyL2VBe2LXhPXt7Faj6EDUMimiOaWzjUSFKXJ2kQ40LBQbQFRe6w0fg==",
+    "topic": "DSA",
+    "marks": 10,
+    "categories": [
+      "DSA"
+    ]
+  },
+  {
+    "qid": "Q91",
+    "question": "enc:v1:gnuJ/7FREduawM4ARnOC+duiAJ9QCDVCiKRbMxfqLx45+Ia2HHQPFTA5zLBpTWY1Wen6NFtZdc4LSXXZceT39HMOkEhTO+80wIcIPIMzvn31yXMXi7zQ6mCDgkT+UXj02ckW6wdYqw5nGti/hp4=",
+    "topic": "General Aptitude",
+    "marks": 10,
+    "categories": [
+      "General Aptitude"
+    ]
+  },
+  {
+    "qid": "Q92",
+    "question": "enc:v1:KdHHTqinS03c9RghzADHCgds/zrwUn9QJbkeI+8WaID+b1tyh5cmn5jXnkJugPm0Nq0SVjG4zPj9PxDR8eSW397+/e399owki534BhM=",
+    "topic": "General Aptitude",
+    "marks": 10,
+    "categories": [
+      "General Aptitude"
+    ]
+  },
+  {
+    "qid": "Q93",
+    "question": "enc:v1:9EHVyo7hBy1qPTsS+wsWZGH7DCh+IAn2zp3nE6JN/f6XlX4096qo/HDdPhaF4vcAm7FRfA==",
+    "topic": "General Aptitude",
+    "marks": 10,
+    "categories": [
+      "General Aptitude"
+    ]
+  },
+  {
+    "qid": "Q94",
+    "question": "enc:v1:Ao9EpIw4mDS382U7D7nXbdnYGx025PWMhzvKqY1urs7yUFlj9o6hP8x8p954qg3uUWLHouqAUToQhbzwZq1hHYEwdUgyZr6Jz7rFsftfVEjhXdOAIRtK8p4RcQp5F5o=",
+    "topic": "General Aptitude",
+    "marks": 10,
+    "categories": [
+      "General Aptitude"
+    ]
+  },
+  {
+    "qid": "Q95",
+    "question": "enc:v1:OfxlJdE8S05JbrjWc26f9jnHWa3KqdgH/i5huvXzl1w0Ze8Rdv5CdGWwZnXYNylrIQOvpWyTYpSHkZz4TZCZ/g==",
+    "topic": "General Aptitude",
+    "marks": 10,
+    "categories": [
+      "General Aptitude"
+    ]
+  },
+  {
+    "qid": "Q96",
+    "question": "enc:v1:F69B/nfXioQ+z4Mh6U4w6UsDt7BqAyueErwpfLRIUzRd/3BDy+JsIcWx2sVGxhuG9hZlGbyWOhvCscmADi/fxg==",
+    "topic": "General Aptitude",
+    "marks": 10,
+    "categories": [
+      "General Aptitude"
+    ]
+  },
+  {
+    "qid": "Q97",
+    "question": "enc:v1:Tvsp6OydMR6/aJNldIDXKjyIXhdg/SmTjSGhpivZPjJjsSFye+r/QW3ZCJ9aVGAoYl6RcqgDP+SNu+U=",
+    "topic": "General Aptitude",
+    "marks": 10,
+    "categories": [
+      "General Aptitude"
+    ]
+  },
+  {
+    "qid": "Q98",
+    "question": "enc:v1:tIBiXSOEhIMKw9PAVyzwGXY0609iPRFzGENBB13uO9Wa74Fmwn9UDNdnmt+PZPJ/JYATKYzOlDZR87/oepqI",
+    "topic": "General Aptitude",
+    "marks": 10,
+    "categories": [
+      "General Aptitude"
+    ]
+  },
+  {
+    "qid": "Q99",
+    "question": "enc:v1:+n0z2mjFO4nrH3wCilmJ0+q/s4OtyA8Un/bzhmSqafXpE2oUkCwG8Ts2tGXwfjSHng1Vs2MetTQrwxy5tUYn6G65pLuDrDI=",
+    "topic": "General Aptitude",
+    "marks": 10,
+    "categories": [
+      "General Aptitude"
+    ]
+  },
+  {
+    "qid": "Q100",
+    "question": "enc:v1:KO67LooAH0D073A6EeUWGtcOCbZeEupMbnUfrvSQxf6P53TR/lYN0gzt7qYTYiIFZ+bGYGEui89wcTZ+zTR2cA/jAuFgSxUI0z+H249eN1/4O5h8XZc5ajDqWQ==",
+    "topic": "General Aptitude",
+    "marks": 10,
+    "categories": [
+      "General Aptitude"
+    ]
+  },
+  {
+    "qid": "Q101",
+    "question": "enc:v1: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",
+    "topic": "General Aptitude",
+    "categories": [
+      "General Aptitude"
+    ],
+    "marks": 10,
+    "createdBy": "Vaibhav Hoke  Main ac"
+  }
+]

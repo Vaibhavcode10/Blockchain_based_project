@@ -1,0 +1,49 @@
+{
+  "_format": "hh3-sol-build-info-1",
+  "id": "solc-0_8_34-9431f73a870b5571ca754f9a2d8c65ac2adbffc0",
+  "solcVersion": "0.8.34",
+  "solcLongVersion": "0.8.34+commit.80d5c536",
+  "compilerType": "solc",
+  "toolVersions": {
+    "hardhat": "3.19.0"
+  },
+  "userSourceNameMap": {
+    "contracts/QuestionPaperVault.sol": "project/contracts/QuestionPaperVault.sol"
+  },
+  "input": {
+    "language": "Solidity",
+    "settings": {
+      "evmVersion": "osaka",
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "outputSelection": {
+        "*": {
+          "": [
+            "ast"
+          ],
+          "*": [
+            "abi",
+            "evm.bytecode.linkReferences",
+            "evm.bytecode.object",
+            "evm.bytecode.opcodes",
+            "evm.bytecode.sourceMap",
+            "evm.deployedBytecode.immutableReferences",
+            "evm.deployedBytecode.linkReferences",
+            "evm.deployedBytecode.object",
+            "evm.deployedBytecode.opcodes",
+            "evm.deployedBytecode.sourceMap",
+            "evm.methodIdentifiers"
+          ]
+        }
+      },
+      "remappings": []
+    },
+    "sources": {
+      "project/contracts/QuestionPaperVault.sol": {
+        "content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.20;\r\n\r\ncontract QuestionPaperVault {\r\n    address public admin;\r\n\r\n    struct Paper {\r\n        string paperHash; // Hash / IPFS CID of the encrypted paper payload\r\n        bool exists;\r\n    }\r\n\r\n    mapping(uint256 => Paper) public papers;\r\n    mapping(uint256 => address[]) public accessLogs;\r\n    mapping(uint256 => mapping(address => bool)) public hasAccessed;\r\n    mapping(address => uint256) public accessNonces;\r\n\r\n    event PaperCreated(uint256 indexed paperId, string paperHash);\r\n    event PaperAccessed(\r\n        uint256 indexed paperId,\r\n        address indexed viewer,\r\n        bytes32 indexed appUserId,\r\n        uint256 timestamp\r\n    );\r\n\r\n    modifier onlyAdmin() {\r\n        require(msg.sender == admin, \"Only admin can perform this action\");\r\n        _;\r\n    }\r\n\r\n    constructor() {\r\n        admin = msg.sender;\r\n    }\r\n\r\n    function createPaper(uint256 paperId, string memory _paperHash) public onlyAdmin {\r\n        require(!papers[paperId].exists, \"Paper already exists\");\r\n        papers[paperId] = Paper(_paperHash, true);\r\n        emit PaperCreated(paperId, _paperHash);\r\n    }\r\n\r\n    function accessPaper(\r\n        uint256 paperId,\r\n        bytes32 appUserId,\r\n        uint256 deadline,\r\n        uint256 nonce,\r\n        bytes calldata signature\r\n    ) public {\r\n        require(papers[paperId].exists, \"Paper does not exist\");\r\n        require(appUserId != bytes32(0), \"Invalid app user\");\r\n        require(block.timestamp <= deadline, \"Access authorization expired\");\r\n        require(nonce == accessNonces[msg.sender], \"Invalid access nonce\");\r\n\r\n        bytes32 accessHash = keccak256(\r\n            abi.encode(\r\n                block.chainid,\r\n                address(this),\r\n                paperId,\r\n                msg.sender,\r\n                appUserId,\r\n                deadline,\r\n                nonce\r\n            )\r\n        );\r\n        bytes32 signedHash = keccak256(\r\n            abi.encodePacked(\"\\x19Ethereum Signed Message:\\n32\", accessHash)\r\n        );\r\n        (bytes32 r, bytes32 s, uint8 v) = _splitSignature(signature);\r\n        require(ecrecover(signedHash, v, r, s) == admin, \"Invalid access authorization\");\r\n        accessNonces[msg.sender] = nonce + 1;\r\n\r\n        if (!hasAccessed[paperId][msg.sender]) {\r\n            hasAccessed[paperId][msg.sender] = true;\r\n            accessLogs[paperId].push(msg.sender);\r\n        }\r\n\r\n        emit PaperAccessed(paperId, msg.sender, appUserId, block.timestamp);\r\n    }\r\n\r\n    function getAccessLogs(uint256 paperId) public view returns (address[] memory) {\r\n        return accessLogs[paperId];\r\n    }\r\n\r\n    function _splitSignature(bytes calldata signature)\r\n        private\r\n        pure\r\n        returns (bytes32 r, bytes32 s, uint8 v)\r\n    {\r\n        require(signature.length == 65, \"Invalid signature\");\r\n        assembly {\r\n            r := calldataload(signature.offset)\r\n            s := calldataload(add(signature.offset, 32))\r\n            v := byte(0, calldataload(add(signature.offset, 64)))\r\n        }\r\n        if (v < 27) {\r\n            v += 27;\r\n        }\r\n        require(v == 27 || v == 28, \"Invalid signature\");\r\n    }\r\n}"
+      }
+    }
+  }
+}

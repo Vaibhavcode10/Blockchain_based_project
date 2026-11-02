@@ -15,6 +15,7 @@ dist-ssr
 .env.*
 !.env.example
 backend/local_db/users.json
+PROJECT_WORKING_NOTES.md
 
 # Editor directories and files
 .vscode/*

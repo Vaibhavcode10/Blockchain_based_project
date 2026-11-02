@@ -2,12 +2,17 @@ import { useEffect, useState } from 'react'
 import { BrowserProvider, Contract } from 'ethers'
 import './App.css'
 
+const backendUrl = (import.meta.env.VITE_BACKEND_URL ?? '').replace(/\/+$/, '')
 const tokenStorageKey = 'anti-paper-leak-token'
 const themeStorageKey = 'paper-vault-theme'
 const sepoliaChainId = 11155111n
 const questionPaperVaultAbi = [
   'function accessPaper(uint256 paperId, bytes32 appUserId, uint256 deadline, uint256 nonce, bytes signature)',
 ]
+
+function apiUrl(path) {
+  return `${backendUrl}${path}`
+}
 
 function getDefaultExamDateTime() {
   const defaultDate = new Date(Date.now() + 7 * 24 * 60 * 60 * 1000)
@@ -31,13 +36,13 @@ async function readApiResponse(response) {
     result = body ? JSON.parse(body) : null
   } catch {
     throw new Error(
-      `Backend returned a non-JSON response (HTTP ${response.status}). Make sure the backend is running with "npm run dev:backend".`,
+      `Backend returned a non-JSON response (HTTP ${response.status}). Check that the backend is running and its URL is configured correctly.`,
     )
   }
 
   if (!result) {
     throw new Error(
-      `Backend returned an empty response (HTTP ${response.status}). Make sure the backend is running with "npm run dev:backend".`,
+      `Backend returned an empty response (HTTP ${response.status}). Check that the backend is running and its URL is configured correctly.`,
     )
   }
 
@@ -68,7 +73,7 @@ function PublicAuditPage({ theme, onThemeToggle }) {
     async function loadRecords() {
       setIsLoading(true)
       try {
-        const response = await fetch('/api/audit/accesses')
+        const response = await fetch(apiUrl('/api/audit/accesses'))
         const result = await readApiResponse(response)
         if (isCurrent) {
           setRecords(result.records)
@@ -122,7 +127,7 @@ function PublicAuditPage({ theme, onThemeToggle }) {
     setPaperError(null)
     try {
       const response = await fetch(
-        `/api/public/papers/${encodeURIComponent(paperId)}`,
+        apiUrl(`/api/public/papers/${encodeURIComponent(paperId)}`),
       )
       const result = await readApiResponse(response)
       setOpenedPapers((current) => ({ ...current, [paperId]: result }))
@@ -435,7 +440,7 @@ function App() {
     async function restoreSession() {
       setIsAuthenticating(true)
       try {
-        const response = await fetch('/api/auth/me', {
+        const response = await fetch(apiUrl('/api/auth/me'), {
           headers: { Authorization: `Bearer ${token}` },
         })
         const result = await readApiResponse(response)
@@ -478,7 +483,7 @@ function App() {
 
     async function loadPapers() {
       try {
-        const response = await fetch('/api/question-papers', {
+        const response = await fetch(apiUrl('/api/question-papers'), {
           headers: { Authorization: `Bearer ${token}` },
         })
         const result = await readApiResponse(response)
@@ -492,7 +497,7 @@ function App() {
             null,
           )
         }
-        const categoriesResponse = await fetch('/api/question-categories', {
+        const categoriesResponse = await fetch(apiUrl('/api/question-categories'), {
           headers: { Authorization: `Bearer ${token}` },
         })
         const categoryResult = await readApiResponse(categoriesResponse)
@@ -549,7 +554,7 @@ function App() {
     try {
       const isRegistering = authMode === 'register'
       const response = await fetch(
-        isRegistering ? '/api/auth/register' : '/api/auth/login',
+        apiUrl(isRegistering ? '/api/auth/register' : '/api/auth/login'),
         {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
@@ -601,7 +606,7 @@ function App() {
     setBackendStatus('')
 
     try {
-      const response = await fetch('/api/health')
+      const response = await fetch(apiUrl('/api/health'))
       const result = await readApiResponse(response)
       setBackendStatus(
         result.status === 'ok'
@@ -644,7 +649,7 @@ function App() {
     setAccessTransactionHash('')
 
     try {
-      const response = await fetch('/api/question-papers/generate', {
+      const response = await fetch(apiUrl('/api/question-papers/generate'), {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -757,7 +762,9 @@ function App() {
         return
       }
       const authorizationResponse = await fetch(
-        `/api/question-papers/${encodeURIComponent(paperToOpen.paperId)}/access-authorization`,
+        apiUrl(
+          `/api/question-papers/${encodeURIComponent(paperToOpen.paperId)}/access-authorization`,
+        ),
         {
           method: 'POST',
           headers: {
@@ -792,7 +799,9 @@ function App() {
       }
 
       const contentResponse = await fetch(
-        `/api/question-papers/${encodeURIComponent(paperToOpen.paperId)}/content`,
+        apiUrl(
+          `/api/question-papers/${encodeURIComponent(paperToOpen.paperId)}/content`,
+        ),
         {
           method: 'POST',
           headers: {
@@ -851,7 +860,7 @@ function App() {
     setFormMessage('')
 
     try {
-      const response = await fetch('/api/questions', {
+      const response = await fetch(apiUrl('/api/questions'), {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

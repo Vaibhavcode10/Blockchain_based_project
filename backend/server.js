@@ -2,6 +2,7 @@ import { randomUUID } from 'node:crypto'
 import { config } from 'dotenv'
 import { getAddress, id } from 'ethers'
 import express from 'express'
+import cors from 'cors'
 import { fileURLToPath } from 'node:url'
 import process from 'node:process'
 import {
@@ -51,6 +52,14 @@ config({ path: fileURLToPath(new URL('../.env', import.meta.url)) })
 
 const app = express()
 const port = Number(process.env.PORT || 3001)
+const allowedFrontendOrigins = new Set([
+  'http://localhost:5173',
+  'http://127.0.0.1:5173',
+  ...(process.env.FRONTEND_URL || '')
+    .split(',')
+    .map((origin) => origin.trim().replace(/\/+$/, ''))
+    .filter(Boolean),
+])
 const questionEditorEmail = (
   process.env.QUESTION_EDITOR_EMAIL || 'vaibhahoke.dev1@gmail.com'
 ).trim().toLowerCase()
@@ -162,6 +171,15 @@ function isAdminWalletAllowlistConfigured() {
 }
 
 app.use(express.json({ limit: '16kb' }))
+app.use(
+  cors({
+    origin(origin, callback) {
+      callback(null, !origin || allowedFrontendOrigins.has(origin))
+    },
+    methods: ['GET', 'POST', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
+  }),
+)
 
 app.get('/api/health', (_request, response) => {
   response.json({

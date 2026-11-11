@@ -3,7 +3,7 @@ import { config } from 'dotenv'
 import { getAddress, id } from 'ethers'
 import express from 'express'
 import cors from 'cors'
-import { fileURLToPath } from 'node:url'
+import { fileURLToPath, pathToFileURL } from 'node:url'
 import process from 'node:process'
 import {
   readPaperArchive,
@@ -934,6 +934,10 @@ app.post('/api/questions', requireAuth, requireQuestionEditor, async (request, r
   }
 })
 
-app.listen(port, () => {
-  console.log(`Question paper API listening on port ${port}`)
-})
+export default app
+
+if (process.argv[1] && pathToFileURL(process.argv[1]).href === import.meta.url) {
+  app.listen(port, () => {
+    console.log(`Question paper API listening on port ${port}`)
+  })
+}

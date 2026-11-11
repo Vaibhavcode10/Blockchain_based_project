@@ -934,6 +934,6 @@ app.post('/api/questions', requireAuth, requireQuestionEditor, async (request, r
   }
 })
 
-app.listen(port, '127.0.0.1', () => {
-  console.log(`Question paper API listening at http://127.0.0.1:${port}`)
+app.listen(port, () => {
+  console.log(`Question paper API listening on port ${port}`)
 })

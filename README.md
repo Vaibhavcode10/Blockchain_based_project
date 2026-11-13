@@ -32,9 +32,9 @@ npm run dev:backend
 npm run dev
 ```
 
-Deploy the project to Vercel from the repository root. Vercel builds the Vite frontend and serves backend requests through the catch-all function in `api/[...path].js`; both frontend and API can use the same domain. Set `SUPABASE_URL`, `SUPABASE_SECRET_KEY` (or `SUPABASE_SERVICE_ROLE_KEY`), `JWT_SECRET` (at least 32 characters), and `QUESTION_ENCRYPTION_KEY` (64 hexadecimal characters) in the Vercel project's environment settings. Add blockchain environment values only if the blockchain features are enabled. If the frontend is deployed on a different domain, set `FRONTEND_URL` to its origin; multiple origins can be comma-separated, and set `VITE_BACKEND_URL` to the backend deployment URL in the frontend project.
+Deploy the backend as a Render Web Service from the repository root. Use `npm install` as the build command and `npm run dev:backend` as the start command. Set `SUPABASE_URL`, `SUPABASE_SECRET_KEY` (or `SUPABASE_SERVICE_ROLE_KEY`), `JWT_SECRET` (at least 32 characters), and `QUESTION_ENCRYPTION_KEY` (64 hexadecimal characters) in Render's environment settings. Add blockchain environment values only if those features are enabled. After the frontend is deployed, set `FRONTEND_URL` to its origin (for example, `https://your-frontend.vercel.app`); multiple origins can be comma-separated.
 
-Vercel Functions are request-based, not continuously running servers, and may have cold starts or platform limits. Supabase remains the persistent data store. Leave deployment variables empty locally to use the Vite proxy and local frontend origins.
+For the frontend deployed separately on Vercel, set `VITE_BACKEND_URL` to the Render backend URL with no trailing slash, then redeploy the frontend. Supabase remains the persistent data store. Leave deployment variables empty locally to use the Vite proxy and local frontend origins.
 
 The backend requires access to the configured database and blockchain services. Keep credentials and private keys out of source control and frontend code.
 
